@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65571FC921A503EE00D7DAE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65571FC821A503EE00D7DAE6 /* GoogleService-Info.plist */; };
+		65571FCB21A52A9700D7DAE6 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65571FCA21A52A9700D7DAE6 /* Producto.swift */; };
 		65667D95219E3F26008CD7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65667D94219E3F26008CD7FB /* AppDelegate.swift */; };
 		65667D97219E3F26008CD7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65667D96219E3F26008CD7FB /* ViewController.swift */; };
 		65667D9A219E3F26008CD7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65667D98219E3F26008CD7FB /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		0835A50213A5F34A1EA27249 /* Pods-Kuali.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuali.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kuali/Pods-Kuali.debug.xcconfig"; sourceTree = "<group>"; };
 		65571FC821A503EE00D7DAE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65571FCA21A52A9700D7DAE6 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		65667D91219E3F26008CD7FB /* Kuali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuali.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65667D94219E3F26008CD7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65667D96219E3F26008CD7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				65667D9B219E3F28008CD7FB /* Assets.xcassets */,
 				65667D9D219E3F28008CD7FB /* LaunchScreen.storyboard */,
 				65667DA0219E3F28008CD7FB /* Info.plist */,
+				65571FCA21A52A9700D7DAE6 /* Producto.swift */,
 				65667DA621A3C914008CD7FB /* ProductCell.swift */,
 				65667DA721A3C914008CD7FB /* ProductCell.xib */,
 			);
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65667DA821A3C914008CD7FB /* ProductCell.swift in Sources */,
+				65571FCB21A52A9700D7DAE6 /* Producto.swift in Sources */,
 				65667D97219E3F26008CD7FB /* ViewController.swift in Sources */,
 				65667D95219E3F26008CD7FB /* AppDelegate.swift in Sources */,
 			);
