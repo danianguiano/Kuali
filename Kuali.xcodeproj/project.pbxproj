@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65571FC921A503EE00D7DAE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65571FC821A503EE00D7DAE6 /* GoogleService-Info.plist */; };
 		65667D95219E3F26008CD7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65667D94219E3F26008CD7FB /* AppDelegate.swift */; };
 		65667D97219E3F26008CD7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65667D96219E3F26008CD7FB /* ViewController.swift */; };
 		65667D9A219E3F26008CD7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65667D98219E3F26008CD7FB /* Main.storyboard */; };
 		65667D9C219E3F28008CD7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65667D9B219E3F28008CD7FB /* Assets.xcassets */; };
 		65667D9F219E3F28008CD7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65667D9D219E3F28008CD7FB /* LaunchScreen.storyboard */; };
+		65667DA821A3C914008CD7FB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65667DA621A3C914008CD7FB /* ProductCell.swift */; };
+		65667DA921A3C914008CD7FB /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65667DA721A3C914008CD7FB /* ProductCell.xib */; };
+		95F0C69533CA8F39984A6220 /* Pods_Kuali.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF0F03DE2E9CF5B35562C14 /* Pods_Kuali.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0835A50213A5F34A1EA27249 /* Pods-Kuali.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuali.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kuali/Pods-Kuali.debug.xcconfig"; sourceTree = "<group>"; };
+		65571FC821A503EE00D7DAE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65667D91219E3F26008CD7FB /* Kuali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuali.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65667D94219E3F26008CD7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65667D96219E3F26008CD7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		65667D9B219E3F28008CD7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65667D9E219E3F28008CD7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65667DA0219E3F28008CD7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65667DA621A3C914008CD7FB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		65667DA721A3C914008CD7FB /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		D145408D4EC8FB3A597A65D6 /* Pods-Kuali.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuali.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kuali/Pods-Kuali.release.xcconfig"; sourceTree = "<group>"; };
+		FEF0F03DE2E9CF5B35562C14 /* Pods_Kuali.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kuali.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F0C69533CA8F39984A6220 /* Pods_Kuali.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				65667D93219E3F26008CD7FB /* Kuali */,
 				65667D92219E3F26008CD7FB /* Products */,
+				EBC274EF453009E181133FAF /* Pods */,
+				F31572AD2B16FF37F071D5EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		65667D93219E3F26008CD7FB /* Kuali */ = {
 			isa = PBXGroup;
 			children = (
+				65571FC821A503EE00D7DAE6 /* GoogleService-Info.plist */,
 				65667D94219E3F26008CD7FB /* AppDelegate.swift */,
 				65667D96219E3F26008CD7FB /* ViewController.swift */,
 				65667D98219E3F26008CD7FB /* Main.storyboard */,
 				65667D9B219E3F28008CD7FB /* Assets.xcassets */,
 				65667D9D219E3F28008CD7FB /* LaunchScreen.storyboard */,
 				65667DA0219E3F28008CD7FB /* Info.plist */,
+				65667DA621A3C914008CD7FB /* ProductCell.swift */,
+				65667DA721A3C914008CD7FB /* ProductCell.xib */,
 			);
 			path = Kuali;
+			sourceTree = "<group>";
+		};
+		EBC274EF453009E181133FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0835A50213A5F34A1EA27249 /* Pods-Kuali.debug.xcconfig */,
+				D145408D4EC8FB3A597A65D6 /* Pods-Kuali.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F31572AD2B16FF37F071D5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0F03DE2E9CF5B35562C14 /* Pods_Kuali.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65667DA3219E3F28008CD7FB /* Build configuration list for PBXNativeTarget "Kuali" */;
 			buildPhases = (
+				EE1EBD6AB1266C0B8612BDC1 /* [CP] Check Pods Manifest.lock */,
 				65667D8D219E3F26008CD7FB /* Sources */,
 				65667D8E219E3F26008CD7FB /* Frameworks */,
 				65667D8F219E3F26008CD7FB /* Resources */,
+				0CB79EF807662DC861F0002C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65667D9F219E3F28008CD7FB /* LaunchScreen.storyboard in Resources */,
+				65667DA921A3C914008CD7FB /* ProductCell.xib in Resources */,
+				65571FC921A503EE00D7DAE6 /* GoogleService-Info.plist in Resources */,
 				65667D9C219E3F28008CD7FB /* Assets.xcassets in Resources */,
 				65667D9A219E3F26008CD7FB /* Main.storyboard in Resources */,
 			);
@@ -130,11 +167,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CB79EF807662DC861F0002C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kuali/Pods-Kuali-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kuali/Pods-Kuali-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1EBD6AB1266C0B8612BDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kuali-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65667D8D219E3F26008CD7FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65667DA821A3C914008CD7FB /* ProductCell.swift in Sources */,
 				65667D97219E3F26008CD7FB /* ViewController.swift in Sources */,
 				65667D95219E3F26008CD7FB /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +369,7 @@
 		};
 		65667DA4219E3F28008CD7FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0835A50213A5F34A1EA27249 /* Pods-Kuali.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kuali;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.kuali.kuali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +387,7 @@
 		};
 		65667DA5219E3F28008CD7FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D145408D4EC8FB3A597A65D6 /* Pods-Kuali.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kuali;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.kuali.kuali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
