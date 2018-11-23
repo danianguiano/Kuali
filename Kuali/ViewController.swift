@@ -68,13 +68,21 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let itemsPerRow:CGFloat = 2
-        let hardCodedPadding:CGFloat = 5
+        let hardCodedPadding:CGFloat = 1
         
         let itemWidth = (collectionView.bounds.width / itemsPerRow)
         
-        let itemHeight = collectionView.bounds.height / 3
+        let itemHeight = heightForCellAt(indexPath: indexPath, collectionView: collectionView)
+        return heightForCellAt(indexPath: indexPath, collectionView: collectionView)
+    }
+    
+    func heightForCellAt(indexPath: IndexPath, collectionView: UICollectionView) -> CGSize {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        cell.setNeedsLayout()
+        cell.layoutIfNeeded()
         
-        return CGSize(width: itemWidth-10, height: itemHeight)
+        return cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
+        
     }
     
 }
